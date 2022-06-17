@@ -1,0 +1,78 @@
+@charset "UTF8";
+@import url('https://fonts.googleapis.com/css2? family= Passions+Conflict & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Passions+Conflict & family= Sriracha & display=swap');
+
+:root{
+    --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Passions Conflict', cursiva;
+    --fonte3: 'Sriracha', cursiva;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    font-family: var(--fonte1);
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte3);
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, footer a:hover{
+    text-decoration: underline;
+    color: chocolate;
+}
+
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 40px;
+    line-height: 2em;
+    
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(49, 47, 47);
+    color: white;
+}
+
+section.imagem >p{
+    background-color: black;
+    width: 200px;
+}
+
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
