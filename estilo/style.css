@@ -1,11 +1,12 @@
 @charset "UTF8";
-@import url('https://fonts.googleapis.com/css2? family= Passions+Conflict & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= Passions+Conflict & family= Sriracha & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Dancing+Script & família= Paixão+Um & display=swap');
+
 
 :root{
     --fonte1:Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2:'Passions Conflict', cursiva;
-    --fonte3: 'Sriracha', cursiva;
+    --fonte2:'Dancing Script', cursiva;
+    --fonte3:'Passion One', cursiva;
 }
 
 *{
@@ -26,7 +27,7 @@ header{
 }
 
 header > h1{
-    font-family: var(--fonte3);
+    font-family: var(--fonte2);
     padding-top: 50px;
     font-variant: small-caps;
 }
@@ -50,7 +51,13 @@ section{
     padding-bottom: 10vh;
     padding-left: 40px;
     line-height: 2em;
+    font-family: var(--fonte3);
     
+}
+
+section > p{
+    padding-bottom: 2em;
+    padding: 15px;
 }
 
 section.normal{
@@ -66,6 +73,19 @@ section.imagem{
 section.imagem >p{
     background-color: black;
     width: 200px;
+    text-shadow: 2px 2px 2px black;
+}
+
+section#img01{
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+}
+
+section#img02{
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
 }
 
 
